@@ -1,9 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" fill="none" stroke="#947d68" stroke-width="1.2" aria-hidden="true">
-  <path d="M60 353h67v-34h67v-34h67v-34h67v-34h67v-34h67v-34h67v-34"/>
-  <path d="M60 370h84v-34h67v-34h67v-34h67v-34h67v-34h67v-34h67v-34" opacity=".45"/>
-  <path d="M60 353v27m67-61v51m67-85v51m67-85v51m67-85v51m67-85v51m67-85v51m67-85v51" opacity=".38"/>
-  <path d="M63 342 475 75M71 335 483 68"/>
-  <path d="M79 360v30m395-310v-30M79 387h395" stroke-dasharray="4 5" opacity=".7"/>
-  <path d="M50 353h-24m35 17H26m10-17v17M500 116h42m-42 34h42m-8-34v34" opacity=".65"/>
-  <circle cx="80" cy="337" r="3" fill="#947d68"/><circle cx="476" cy="80" r="3" fill="#947d68"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 610" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Архитектурный эскиз интерьерной лестницы</title>
+  <desc id="desc">План и боковая проекция деревянного марша с ограждением по наружному краю.</desc>
+  <defs>
+    <pattern id="wall" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(42)"><path d="M0 0V9" stroke="#c7b7a5" stroke-width=".7"/></pattern>
+    <linearGradient id="oak" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8dac8"/><stop offset="1" stop-color="#c9b59d"/></linearGradient>
+  </defs>
+
+  <g stroke="#a68e75" stroke-width=".8" opacity=".72">
+    <path d="M44 34h48M44 34v48M856 34h-48M856 34v48M44 576h48M44 576v-48M856 576h-48M856 576v-48"/>
+    <path d="M44 102H856M44 544H856"/>
+  </g>
+  <g fill="#735b47" font-family="Arial, sans-serif" letter-spacing="3">
+    <text x="46" y="63" font-size="14">SHEPKA / ЛЕСТНИЦА</text>
+    <text x="46" y="85" font-size="9" letter-spacing="2">КОНСТРУКТИВНЫЙ ЭСКИЗ · ПЛАН И ФАСАД</text>
+    <text x="731" y="63" font-size="11" text-anchor="end">ЭСКИЗ  /  01</text>
+    <text x="46" y="570" font-size="9" letter-spacing="2">ПРОПОРЦИЯ  ·  МАТЕРИАЛ  ·  ЛИНИЯ</text>
+    <text x="853" y="570" font-size="9" text-anchor="end" letter-spacing="2">НЕ РАБОЧИЙ ЧЕРТЁЖ</text>
+  </g>
+
+  <!-- План: наружное ограждение показано по левому краю марша. -->
+  <g transform="translate(62 142)">
+    <rect x="0" y="0" width="218" height="310" fill="url(#wall)" opacity=".30"/>
+    <rect x="22" y="19" width="174" height="270" fill="#eee5d9" stroke="#78634e" stroke-width="1.1"/>
+    <g stroke="#826d57" stroke-width="1.1">
+      <path d="M22 53H196M22 87H196M22 121H196M22 155H196M22 189H196M22 223H196M22 257H196"/>
+      <path d="M22 19V289M196 19V289" stroke-width="1.6"/>
+    </g>
+    <path d="M12 294V14" stroke="#554435" stroke-width="3"/>
+    <g fill="#554435"><circle cx="12" cy="29" r="3"/><circle cx="12" cy="97" r="3"/><circle cx="12" cy="165" r="3"/><circle cx="12" cy="233" r="3"/><circle cx="12" cy="282" r="3"/></g>
+    <path d="M109 253V57m0 0-8 12m8-12 8 12" stroke="#8b6c4f" stroke-width="1.25"/>
+    <text x="91" y="273" fill="#735b47" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">ВВЕРХ</text>
+    <path d="M22 306H196m-174-6v12m174-12v12" stroke="#9b8269" stroke-width=".8"/>
+  </g>
+  <g fill="#735b47" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">
+    <text x="62" y="129">01 / ПЛАН</text>
+    <text x="351" y="129">02 / БОКОВАЯ ПРОЕКЦИЯ</text>
+  </g>
+
+  <!-- Боковая проекция: ступени образуют один логичный прямой марш. -->
+  <g transform="translate(350 128)">
+    <path d="M10 342H480V15H500V365H10Z" fill="url(#wall)" opacity=".16"/>
+    <g fill="url(#oak)" stroke="#715c48" stroke-width="1.35">
+      <path d="M11 336h72v17H11z"/><path d="M66 302h72v17H66z"/><path d="M121 268h72v17h-72z"/><path d="M176 234h72v17h-72z"/>
+      <path d="M231 200h72v17h-72z"/><path d="M286 166h72v17h-72z"/><path d="M341 132h72v17h-72z"/><path d="M396 98h72v17h-72z"/>
+    </g>
+    <g stroke="#806b55" stroke-width=".75" opacity=".5">
+      <path d="M14 341h61M69 307h60M124 273h61M179 239h60M234 205h60M289 171h60M344 137h60M399 103h60"/>
+      <path d="M18 347h31M78 313h28M127 279h31M188 245h32M242 211h26M301 177h29M353 143h29M409 109h29"/>
+    </g>
+    <path d="M0 369H500M482 10V371" stroke="#8e785f" stroke-width="1.1"/>
+    <path d="M18 224 455 37" stroke="#4f4034" stroke-width="3.3" stroke-linecap="square"/>
+    <path d="M18 231 455 44" stroke="#7a6651" stroke-width=".8"/>
+    <g stroke="#594a3d" stroke-width="1.45">
+      <path d="M38 216v119M148 169v99M258 122v78M368 75v58M448 41v57"/>
+    </g>
+    <g fill="#594a3d"><circle cx="38" cy="216" r="2.7"/><circle cx="148" cy="169" r="2.7"/><circle cx="258" cy="122" r="2.7"/><circle cx="368" cy="75" r="2.7"/><circle cx="448" cy="41" r="2.7"/></g>
+    <path d="M7 390H471m-464-8v16m464-16v16M494 90v261m-7-261h14m-14 261h14" stroke="#a1866d" stroke-width=".85"/>
+    <path d="M44 214 6 168H-8M341 131l27-71h53" stroke="#8c725a" stroke-width=".9"/>
+    <g fill="#735b47" font-family="Arial, sans-serif" font-size="9" letter-spacing="1.3">
+      <text x="-9" y="158" text-anchor="end">ОГРАЖДЕНИЕ</text>
+      <text x="423" y="60">МАССИВ</text>
+    </g>
+  </g>
+  <path d="M316 136V460" stroke="#a68e75" stroke-width=".75" stroke-dasharray="3 5"/>
+  <circle cx="315" cy="477" r="16" stroke="#a68e75" stroke-width=".8"/>
+  <path d="M305 477h20m-10-10v20" stroke="#a68e75" stroke-width=".75"/>
 </svg>
