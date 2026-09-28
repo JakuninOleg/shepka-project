@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 570" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Объёмный архитектурный эскиз лестницы</title>
-  <desc id="desc">Десять одинаковых деревянных ступеней поднимаются вдоль стены. Видны верхние плоскости, толщина и текстура дерева, непрерывная опора под маршем и ограждение по открытому краю.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 650" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Лестничный марш — объёмный вид и план</title>
+  <desc id="desc">Десять деревянных ступеней поднимаются вдоль стены. Видны верхние плоскости, толщина и текстура дерева, непрерывная опора под маршем и ограждение по открытому краю. Внизу расположен план марша.</desc>
   <defs>
     <linearGradient id="oakTop" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#ecdbc0"/>
@@ -33,27 +33,23 @@
     </pattern>
     <!-- A single step with a readable top, fascia, end grain and cast edge. -->
     <g id="volumeStep" stroke-linejoin="round">
-      <path d="M5 18 121 35 151 16 35-1Z" fill="#514537" opacity=".11"/>
-      <path d="M0 0 116 17v15L0 15Z" fill="url(#oakFront)" stroke="#67513f" stroke-width="1.05"/>
-      <path d="M0 0 116 17v15L0 15Z" fill="url(#woodGrain)" opacity=".48"/>
-      <path d="M116 17 146-2v15l-30 19Z" fill="url(#oakEnd)" stroke="#5e4a3b" stroke-width="1.05"/>
-      <path d="M116 17 146-2v15l-30 19Z" fill="url(#endGrain)" opacity=".4"/>
-      <path d="M0 0 116 17 146-2 30-19Z" fill="url(#oakTop)" stroke="#6f5947" stroke-width="1.1"/>
-      <path d="M0 0 116 17 146-2 30-19Z" fill="url(#woodGrain)" opacity=".76"/>
-      <path d="M4 2 115 19M5 13 113 29" stroke="#f6e4c5" stroke-width=".7" opacity=".65"/>
+      <path d="M5 23 134 41 169 20 39-1Z" fill="#514537" opacity=".16"/>
+      <path d="M0 0 126 18v20L0 20Z" fill="url(#oakFront)" stroke="#67513f" stroke-width="1.05"/>
+      <path d="M0 0 126 18v20L0 20Z" fill="url(#woodGrain)" opacity=".48"/>
+      <path d="M126 18 160-3v20l-34 21Z" fill="url(#oakEnd)" stroke="#5e4a3b" stroke-width="1.05"/>
+      <path d="M126 18 160-3v20l-34 21Z" fill="url(#endGrain)" opacity=".4"/>
+      <path d="M0 0 126 18 160-3 34-21Z" fill="url(#oakTop)" stroke="#6f5947" stroke-width="1.1"/>
+      <path d="M0 0 126 18 160-3 34-21Z" fill="url(#woodGrain)" opacity=".76"/>
+      <path d="M4 2 125 20M5 17 123 35" stroke="#f6e4c5" stroke-width=".7" opacity=".65"/>
     </g>
   </defs>
 
   <g fill="#695a4d" font-family="Arial, sans-serif" letter-spacing="1.5">
-    <text x="40" y="35" font-size="13">ЛЕСТНИЦА / ФОРМА В ПРОСТРАНСТВЕ</text>
-    <text x="40" y="548" font-size="10">КОНЦЕПТУАЛЬНЫЙ ЭСКИЗ · ПРОПОРЦИИ И РАЗМЕРЫ УТОЧНЯЮТСЯ В ПРОЕКТЕ</text>
+    <text x="25" y="34" font-size="13">ЛЕСТНИЦА / ОБЪЁМ И КОНСТРУКЦИЯ</text>
   </g>
   <g stroke="#ae9e8d" stroke-width=".7" opacity=".7">
-    <path d="M40 51H654M40 527H654"/>
-    <path d="M58 482H640" stroke-dasharray="3 5"/>
-    <path d="M87 493h477m-477-8v16m477-16v16"/>
+    <path d="M25 50H650M25 489H650"/>
   </g>
-  <text x="324" y="510" fill="#796a5b" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.1" text-anchor="middle">НАПРАВЛЕНИЕ ПОДЪЁМА</text>
 
   <!-- The stair is fixed to a continuous wall face. It is a schematic surface, not a built interior. -->
   <path d="M208 445 586 220V84L208 309Z" fill="url(#wallWash)"/>
@@ -62,20 +58,20 @@
   <path d="M208 445 586 220 601 235 223 460Z" fill="#685545" opacity=".12"/>
 
   <!-- The diagonal stringer stays below each tread; no support cuts through the walking surface. -->
-  <path d="M116 456 534 207 545 221 127 470Z" fill="#675646" opacity=".54" stroke="#605041" stroke-width=".9"/>
-  <path d="M116 456 534 207" stroke="#d4bfa2" stroke-width="1" opacity=".78"/>
+  <path d="M91 457 512 206 548 224 127 475Z" fill="#675646" opacity=".58" stroke="#605041" stroke-width=".9"/>
+  <path d="M91 457 512 206" stroke="#d4bfa2" stroke-width="1" opacity=".78"/>
 
   <!-- Far steps first, near steps last: the overlapping timber reads as one flight. -->
-  <use href="#volumeStep" x="471" y="198"/>
-  <use href="#volumeStep" x="429" y="223"/>
-  <use href="#volumeStep" x="387" y="248"/>
-  <use href="#volumeStep" x="345" y="273"/>
-  <use href="#volumeStep" x="303" y="298"/>
-  <use href="#volumeStep" x="261" y="323"/>
-  <use href="#volumeStep" x="219" y="348"/>
-  <use href="#volumeStep" x="177" y="373"/>
-  <use href="#volumeStep" x="135" y="398"/>
-  <use href="#volumeStep" x="93" y="423"/>
+  <use href="#volumeStep" x="464" y="198"/>
+  <use href="#volumeStep" x="422" y="223"/>
+  <use href="#volumeStep" x="380" y="248"/>
+  <use href="#volumeStep" x="338" y="273"/>
+  <use href="#volumeStep" x="296" y="298"/>
+  <use href="#volumeStep" x="254" y="323"/>
+  <use href="#volumeStep" x="212" y="348"/>
+  <use href="#volumeStep" x="170" y="373"/>
+  <use href="#volumeStep" x="128" y="398"/>
+  <use href="#volumeStep" x="86" y="423"/>
 
   <!-- The slim metal guard follows only the open edge, as clarified by the plan. -->
   <path d="M103 338 481 113" stroke="#51483f" stroke-width="2.15" stroke-linecap="square"/>
@@ -87,15 +83,32 @@
 
   <!-- Fine drafting marks keep the volumetric illustration tied to the site's architectural language. -->
   <g stroke="#8c7b6a" stroke-width=".8" opacity=".85">
-    <path d="M128 322 93 282H41M416 293l45 59h129"/>
+    <path d="M128 322 93 282H27M416 293l45 59h152"/>
     <path d="M566 160h82M566 164h82" stroke-dasharray="2 4"/>
-    <path d="M659 163v219m-7-219h14m-14 219h14"/>
-    <path d="M97 454v20m419-274v274" stroke-dasharray="3 5" opacity=".6"/>
+    <path d="M652 163v219m-7-219h14m-14 219h14"/>
   </g>
   <g fill="#6b5d50" font-family="Arial, sans-serif" font-size="10.5" letter-spacing=".85">
-    <text x="41" y="271">ОТКРЫТЫЙ КРАЙ</text>
-    <text x="464" y="367">НЕПРЕРЫВНАЯ ОПОРА</text>
-    <text x="638" y="277" transform="rotate(-90 638 277)">ПОДЪЁМ ПО ПРОЕКТУ</text>
+    <text x="27" y="271">ОГРАЖДЕНИЕ</text>
+    <text x="465" y="367">НЕПРЕРЫВНАЯ ОПОРА</text>
+    <text x="638" y="277" transform="rotate(-90 638 277)">ЛЕСТНИЧНЫЙ МАРШ</text>
+  </g>
+
+  <g fill="#695a4d" font-family="Arial, sans-serif" letter-spacing="1.3">
+    <text x="25" y="516" font-size="13">ПЛАН МАРША</text>
+    <text x="650" y="516" font-size="10" text-anchor="end">МАССИВ / МЕТАЛЛ</text>
+  </g>
+  <g stroke="#796b5e" stroke-width="1.15">
+    <path d="M25 542H650M25 628H650"/>
+    <path d="M25 542v86m62-86v86m63-86v86m62-86v86m62-86v86m63-86v86m62-86v86m63-86v86m62-86v86m63-86v86m63-86v86"/>
+    <path d="M25 533H650" stroke-width="2.2"/>
+  </g>
+  <g stroke="#ab947d" stroke-width=".85" opacity=".85">
+    <path d="M25 555H650M25 615H650"/>
+    <path d="M235 586H445m0 0-8-5m8 5-8 5"/>
+  </g>
+  <g fill="#796a5b" font-family="Arial, sans-serif" font-size="9.5" letter-spacing="1">
+    <text x="25" y="645">ОГРАЖДЕНИЕ ПО ОТКРЫТОМУ КРАЮ</text>
+    <text x="650" y="645" text-anchor="end">НАПРАВЛЕНИЕ ПОДЪЁМА →</text>
   </g>
 
 </svg>
