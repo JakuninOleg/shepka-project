@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 480" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Объёмный эскиз лестницы</title>
+  <desc id="desc">Десять деревянных ступеней с видимой толщиной и древесной фактурой, непрерывной опорой и ограждением вдоль открытого края. Ниже показан план.</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ead8ba"/><stop offset=".5" stop-color="#cba479"/><stop offset="1" stop-color="#a87952"/></linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#b68d65"/><stop offset="1" stop-color="#76573f"/></linearGradient>
+    <pattern id="grain" width="72" height="19" patternUnits="userSpaceOnUse" patternTransform="rotate(8)">
+      <path d="M-5 3C13 0 20 5 35 2S61 4 79 1M-5 9C12 6 25 12 42 8S62 10 79 7M-5 16C12 12 24 19 42 15S63 16 79 12" stroke="#543827" stroke-width=".6" opacity=".38"/>
+    </pattern>
+    <g id="step" stroke-linejoin="round">
+      <path d="M0 0 65 13v10L0 10Z" fill="url(#front)" stroke="#67513f" stroke-width=".8"/>
+      <path d="M65 13 87 1v10L65 23Z" fill="#785941" stroke="#5e4a3b" stroke-width=".8"/>
+      <path d="M0 0 65 13 87 1 22-12Z" fill="url(#top)" stroke="#6f5947" stroke-width=".9"/>
+      <path d="M0 0 65 13 87 1 22-12Z" fill="url(#grain)" opacity=".85"/>
+      <path d="M3 2 62 14" stroke="#f8e8ca" stroke-width=".55" opacity=".75"/>
+    </g>
+  </defs>
+  <g fill="#695a4d" font-family="Arial, sans-serif" letter-spacing="1.1">
+    <text x="23" y="27" font-size="12">ЛЕСТНИЦА / ФОРМА И МАТЕРИАЛ</text>
+    <text x="23" y="355" font-size="11">ПЛАН / ОГРАЖДЕНИЕ ПО ОТКРЫТОМУ КРАЮ</text>
+    <text x="23" y="467" font-size="9.5">КОНЦЕПТУАЛЬНЫЙ ЭСКИЗ · БЕЗ МАСШТАБА</text>
+  </g>
+  <path d="M23 40H407M23 455H407" stroke="#ab9c8b" stroke-width=".65"/>
+  <path d="M90 323 351 161V81L90 243Z" fill="#a99782" opacity=".14"/>
+  <path d="M90 323 351 161M90 243 351 81" stroke="#a08d79" stroke-width=".6" opacity=".6"/>
+  <path d="M44 333 337 151 345 160 52 342Z" fill="#6c5947" opacity=".47"/>
+  <use href="#step" x="286" y="148"/>
+  <use href="#step" x="257" y="166"/>
+  <use href="#step" x="228" y="184"/>
+  <use href="#step" x="199" y="202"/>
+  <use href="#step" x="170" y="220"/>
+  <use href="#step" x="141" y="238"/>
+  <use href="#step" x="112" y="256"/>
+  <use href="#step" x="83" y="274"/>
+  <use href="#step" x="54" y="292"/>
+  <use href="#step" x="25" y="310"/>
+  <path d="M32 245 293 83" stroke="#54483d" stroke-width="1.65" stroke-linecap="square"/>
+  <g stroke="#66594d" stroke-width="1.05"><path d="M32 245v65M119 191v65M206 137v65M293 83v65"/></g>
+  <g fill="#5a4a3c"><circle cx="32" cy="245" r="1.6"/><circle cx="119" cy="191" r="1.6"/><circle cx="206" cy="137" r="1.6"/><circle cx="293" cy="83" r="1.6"/></g>
+  <g stroke="#a79786" stroke-width=".7"><path d="M26 337H375M26 331v12m349-12v12"/></g>
+  <g stroke="#7f705f" stroke-width=".8">
+    <path d="M37 381h350v62H37zM37 387h350M37 443h350"/>
+    <path d="M72 387v56M107 387v56M142 387v56M177 387v56M212 387v56M247 387v56M282 387v56M317 387v56M352 387v56"/>
+    <path d="M37 376h350" stroke-width="1.45"/>
+    <path d="M130 416h172m0 0-7-5m7 5-7 5"/>
+  </g>
+</svg>
