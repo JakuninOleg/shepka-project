@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shepka-project.ru/sitemap.xml
